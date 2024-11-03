@@ -51,6 +51,26 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
+  <style>
+        .table {
+            display: table;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .table-row {
+            display: table-row;
+        }
+        .table-header, .table-cell {
+            display: table-cell;
+            padding: 8px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+        .table-header {
+            font-weight: bold;
+            background-color: #f2f2f2;
+        }
+    </style>
 
 <body>
   
@@ -132,17 +152,35 @@
         <li>Core Java/J2EE (Java8)</li>
         <li>🎯Frameworks & Libraries</li>
     
-        <ul >
-        <li >📌Frontend</li>
-        <li >📌Backend</li>
-        <li >📌Database</li>
-        <li >📌Tools</li>
-        </ul>
-        <ul >
-        <li >John Doe</li>
-        <li >Software Engineer</li>
-        <li >New York</li>
+       <div class="table">
+    <!-- Table Header -->
+    <ul class="table-row">
+        <li class="table-header">Name</li>
+        <li class="table-header">Position</li>
+        <li class="table-header">Location</li>
     </ul>
+    
+    <!-- Table Row 1 -->
+    <ul class="table-row">
+        <li class="table-cell">John Doe</li>
+        <li class="table-cell">Software Engineer</li>
+        <li class="table-cell">New York</li>
+    </ul>
+    
+    <!-- Table Row 2 -->
+    <ul class="table-row">
+        <li class="table-cell">Jane Smith</li>
+        <li class="table-cell">Product Manager</li>
+        <li class="table-cell">San Francisco</li>
+    </ul>
+
+    <!-- Table Row 3 -->
+    <ul class="table-row">
+        <li class="table-cell">Alice Johnson</li>
+        <li class="table-cell">Designer</li>
+        <li class="table-cell">Los Angeles</li>
+    </ul>
+</div>
 <!--             <li>📌Frontend</li>
             <ul>
                 <li>HTML5</li>
